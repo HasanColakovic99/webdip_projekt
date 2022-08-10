@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    top: 0;
+    background-color: #f1f1ec;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    display: flex;
+    position: absolute;
+    width: 98.1%;
+    top: 0;
+    background-color: #ce003d;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.izbornik {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    top: 85px;
+}
+
+.a {
+    color: white;
+    font-size: 35px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+#meni {
+    display: none;
+}
+
+#meni:target {
+    display: block;
+}
+
+
+.header .h1 {
+    color: white;
+}
+
+.header .h1:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+.header #a {
+    right: 45px;
+    top: 20px;
+}
+
+
+.izbornik .linkovi li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ce003d;
+    right: 15px;
+}
+
+.izbornik .linkovi li a:hover {
+    border-bottom: 1px solid #ce003d;
+    padding-bottom: 5px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.izbornik .linkovi li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+table,
+td,
+th,
+tr {
+    border: 1px solid #ce003d;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+.prvi__red {
+    color: white;
+    font-weight: bold;
+    background-color: #ce003d;
+}
+
+.prvi__red th {
+    text-align: center;
+}
+
+@media print {
+
+    .header,
+    footer,
+    img,
+    p {
+        display: none;
+    }
+}
+
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 98.7%;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ce003d;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .header {
+        position: absolute;
+        width: 100%;
+        background-color: #03b1fc;
+    }
+
+    .tabela {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+    }
+
+    table,
+    td,
+    th,
+    tr {
+        border: 1px solid #03b1fc;
+        border-collapse: collapse;
+    }
+
+    .prvi__red {
+        color: white;
+        font-weight: bold;
+        background-color: #03b1fc;
+    }
+
+    footer {
+        width: 101%;
+        bottom: -5%;
+        background-color: #03b1fc;
+    }
+}

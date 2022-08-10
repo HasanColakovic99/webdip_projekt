@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #c3003d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* header h1 {
+    position: absolute;
+    left: 38.5%;
+} */
+
+header .img-logo {
+    padding-left: 20px;
+}
+
+header .a {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+header .h1 {
+    position: absolute;
+    top: 20px;
+    left: 38.5%;
+    font-size: 35px;
+    color: #fff;
+}
+
+header .h1:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#meni {
+    display: none;
+}
+
+#meni:target {
+    display: block;
+}
+
+.izbornik {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    top: 85px;
+}
+
+.izbornik .linkovi li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ce003d;
+    right: 15px;
+}
+
+.izbornik .linkovi li a:hover {
+    border-bottom: 1px solid #ce003d;
+    padding-bottom: 5px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.izbornik .linkovi li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* PRIKAZ FORME */
+
+.prikaz__forme {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #c3003d;
+}
+
+.prikaz__forme select {
+    margin-left: 10px;
+    border: 1px solid #c3003d;
+    width: 10vw;
+    height: 7vh;
+    font-size: 15px;
+}
+
+
+/* PRVA FORMA */
+
+main .prva__forma {
+    margin-top: 10px;
+    width: 85%;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    box-shadow: 0.1px 0px 10px 0px rgba(255, 0, 0, 0.5);
+}
+
+.prva__forma h2 {
+    color: #c3003d;
+}
+
+.prva__forma .div__forma .forma {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.prva__forma .div__forma .dodanaForma {
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.prva__forma .div__forma .dodanaForma .cetvrta_grupa {
+    width: inherit;
+}
+
+
+/* DRUGA FORMA */
+.prva__forma .druga__forma {
+    background-color: #c3003d;
+    color: #fff;
+    height: 20vh;
+    margin-bottom: 40px;
+}
+
+.druga__forma i {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#timer {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.druga__forma h2 {
+    margin-top: 20px;
+    color: white;
+    font-size: 27px;
+}
+
+fieldset {
+    border: 1px solid #c3003d;
+}
+
+/* PRVI FILEDSET */
+.prva_grupa input {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.prva_grupa #id {
+    width: 78%;
+}
+
+.prva_grupa .labelaNaziv {
+    margin-left: 20px;
+}
+
+
+/* DRUGI FILEDSET */
+.druga_grupa input {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.druga_grupa #mojUnos {
+    width: 71%;
+}
+
+.druga_grupa #popisPozicija {
+    width: 90%;
+}
+
+/* TREĆI FIELDSET */
+.treca_grupa {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.treca_grupa .labelaOpis {
+    margin-left: -55px;
+    position: absolute;
+}
+
+
+.treca_grupa #br_mobitela {
+    width: 52%;
+}
+
+/* ČETVRTI FIELDSET */
+.cetvrta_grupa {
+    width: 23%
+}
+
+.cetvrta_grupa input {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.cetvrta_grupa .labelaSport {
+    margin-left: -15px;
+}
+
+.cetvrta_grupa .labelaKlubovi {
+    margin-left: -12px;
+}
+
+.cetvrta_grupa #klubovi {
+    width: 33%;
+}
+
+/* BUTTON */
+button {
+    width: 20%;
+    padding: 15px;
+    background-color: #ce003d;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+button:hover {
+    border: 1px solid #c3003d;
+    color: #ce003d;
+    background-color: white;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #c3003d;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

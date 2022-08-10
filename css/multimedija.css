@@ -1,0 +1,450 @@
+body {
+    margin: 0;
+    top: 0;
+    background-color: #f1f1ec;
+}
+
+.header {
+    display: flex;
+    display: flex;
+    position: absolute;
+    width: 98%;
+    top: 0;
+    background-color: #ce003d;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.izbornik {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    top: 85px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+#meni {
+    display: none;
+}
+
+#meni:target {
+    display: block;
+}
+
+
+.header .h1 {
+    color: white;
+}
+
+.header .h1:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.a {
+    color: white;
+    font-size: 35px;
+}
+
+.header #a {
+    right: 45px;
+    top: 20px;
+}
+
+
+.izbornik .linkovi li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ce003d;
+    right: 15px;
+}
+
+.izbornik .linkovi li a:hover {
+    border-bottom: 1px solid #ce003d;
+    padding-bottom: 5px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.izbornik .linkovi li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#tabela {
+    position: absolute;
+    margin-left: 50px;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 98.7%;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ce003d;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 470px 470px 465px;
+    grid-template-rows: 500px 700px 150px 150px 500px 100px;
+    gap: 25px 55px;
+    margin-top: 700px;
+}
+
+#nemaPodataka {
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    font-size: 25px;
+    color: #c3003d;
+    text-transform: uppercase;
+}
+
+iframe {
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.63);
+}
+
+.item-a {
+    grid-row: 1/2;
+    margin-left: 45px;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-b {
+    grid-row: 1/2;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-c {
+    grid-row: 1/2;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-d {
+    grid-column: 4/1;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-e {
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-f {
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-g {
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-h {
+    grid-column: 2;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.item-i {
+    grid-column: 4/1;
+    text-align: center;
+    color: #ce003d;
+    font-weight: bold;
+}
+
+.forma {
+    position: absolute;
+    left: 53%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    ;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    height: 150px;
+    background-color: #ce003d;
+    text-align: center;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.forma h2 {
+    color: white;
+    font-size: 27px;
+}
+
+.form2 {
+    position: absolute;
+    left: 53%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    height: 260px;
+    border: 0.3px solid #ce003d;
+    background-color: white;
+    box-shadow: 0.1px 0px 10px 0px rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 35px;
+}
+
+.form2 label {
+    margin-left: 20px;
+}
+
+.form2 input {
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid #ce003d;
+    width: 75%;
+}
+
+.form2 h3 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form2 button {
+    margin-top: 45px;
+    margin-left: 130px;
+    width: 50%;
+    padding: 15px;
+    background-color: #ce003d;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.form2 button:hover {
+    border: 1px solid #ce003d;
+    color: #ce003d;
+    background-color: white;
+}
+
+.form2 p a {
+    text-decoration: none;
+    color: black;
+    margin-left: 180px;
+    padding-bottom: 100px;
+}
+
+.form2 form p {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.footer {
+    grid-column: 4/1;
+    display: flex;
+    padding: 10px;
+    background-color: #ce003d;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .header {
+        position: absolute;
+        width: 59%;
+        background-color: #03b1fc;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        display: inline-block;
+        grid-template-columns: 470px 470px 465px;
+        grid-template-rows: 500px 700px 150px 150px 500px 100px;
+        gap: 25px 55px;
+        margin-top: 600px;
+    }
+
+    .forma {
+        background-color: #03b1fc;
+        position: absolute;
+        height: 100px;
+        width: 30%;
+        left: 30%;
+        top: 20%;
+    }
+
+    .forma h2 {
+        font-size: 20px;
+    }
+
+    .fa-solid {
+        font-size: 20px;
+    }
+
+    .form2 {
+        border: 1px solid #03b1fc;
+        position: absolute;
+        width: 30%;
+        left: 30%;
+        top: 33%;
+        font-size: 12px;
+        height: 200px;
+    }
+
+    .izbornik .linkovi li a {
+        color: #03b1fc;
+    }
+
+    .form2 button {
+        background-color: #03b1fc;
+        font-size: 12px;
+        padding: 12px;
+        margin-top: 10px;
+        position: absolute;
+        left: -22%;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    video {
+        width: 300px;
+        height: 300px;
+    }
+
+    .item-a h1 {
+        margin-bottom: -40px;
+    }
+
+    .item-a {
+        color: #03b1fc;
+        font-size: 11px;
+        margin-left: 0px;
+    }
+
+    .item-b {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-c h1 {
+        margin-bottom: -40px;
+    }
+
+    .item-c {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-d {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-e {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-f {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-g {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-h {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .item-i {
+        color: #03b1fc;
+        font-size: 11px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        width: 490px;
+        background-color: #03b1fc;
+    }
+
+    .footer img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .header img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .form2 #pretrazivanje {
+        border: 1px solid #03b1fc;
+        height: 25px;
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 150px;
+    }
+}

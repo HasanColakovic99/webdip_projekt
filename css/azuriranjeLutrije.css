@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    top: 0;
+    background-color: #f1f1ec;
+}
+
+
+/* TABELA */
+#tabela {
+    margin-left: 80px;
+    margin-top: 75px;
+}
+
+#tabela caption {
+    color: #ce003d;
+    font-size: 25px;
+}
+
+
+/* PRVA FORMA */
+.forma {
+    position: absolute;
+    left: 53%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    height: 150px;
+    background-color: #ce003d;
+    text-align: center;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.forma h2 {
+    color: white;
+    font-size: 27px;
+}
+
+
+/* DRUGA FORMA */
+.form2 {
+    position: absolute;
+    left: 53%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    height: 570px;
+    border: 0.3px solid #ce003d;
+    background-color: white;
+    box-shadow: 0.1px 0px 10px 0px rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+
+.fa-solid {
+    color: white;
+    font-size: 35px;
+}
+
+.form2 label {
+    margin-left: 20px;
+}
+
+.form2 input {
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid #ce003d;
+}
+
+.form2 h3 {
+    text-align: center;
+}
+
+.form2 form #naziv_lutrije {
+    width: 71%;
+}
+
+.form2 form #lokacija {
+    width: 76%;
+}
+
+.form2 form #datum_osnivanja {
+    width: 66%;
+}
+
+.form2 form #broj_ispostava {
+    width: 69%;
+}
+
+.form2 form #online_kladjenje {
+    width: 66.6%;
+    border: 1px solid #c3003d;
+    height: 4vh;
+    font-size: 15px;
+}
+
+.form2 form #zemlja_porijekla {
+    width: 66.5%;
+    border: 1px solid #c3003d;
+    height: 4vh;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.form2 select {
+    margin-left: 10px;
+    border: 1px solid #c3003d;
+    width: 10vw;
+    height: 7vh;
+    font-size: 15px;
+}
+
+.form2 #azuriraj {
+    margin-top: 15px;
+    margin-left: 130px;
+    width: 50%;
+    padding: 15px;
+    background-color: #ce003d;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.form2 #azuriraj:hover {
+    border: 1px solid #ce003d;
+    color: #ce003d;
+    background-color: white;
+}
+
+.form2 #nazad {
+    position: relative;
+    top: -25%;
+    margin-left: 130px;
+    width: 50%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ce003d;
+    color: #ce003d;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 60px;
+}
+
+.form2 #nazad:active {
+    transform: scale(0.96);
+}
+
+.form2 #nazad:hover {
+    border: 1px solid #ce003d;
+    color: #fff;
+    background-color: #c3003d;
+}
+
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .header {
+        width: 89%;
+        background-color: #03b1fc;
+    }
+
+    .izbornik .linkovi li a {
+        color: #03b1fc;
+    }
+
+    .forma {
+        background-color: #03b1fc;
+        position: absolute;
+        left: 45.5%;
+        top: 30%;
+    }
+
+    .form2 {
+        border: 1px solid #03b1fc;
+        position: absolute;
+        left: 45.5%;
+        top: 62.5%;
+    }
+
+    .form2 input {
+        border: 1px solid #03b1fc;
+    }
+
+    .form2 button {
+        background-color: #03b1fc;
+    }
+
+    .form2 form #cookies {
+        border: 1px solid #03b1fc;
+    }
+
+    footer {
+        background-color: #03b1fc;
+        position: absolute;
+        width: 89%;
+        top: 15%;
+    }
+}
